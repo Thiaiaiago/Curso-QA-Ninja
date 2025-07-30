@@ -2,7 +2,7 @@
 
 ## Instalação
 
-Para instalar o (VirtualBox)\[https://www.virtualbox.org] basta fazer o download do Windows Host e executar o instalador.
+Para instalar o [VirtualBox](https://www.virtualbox.org) basta fazer o download do Windows Host e executar o instalador.
 
 
 ## Descobrindo o programa

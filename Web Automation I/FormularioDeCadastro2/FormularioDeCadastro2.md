@@ -1,3 +1,8 @@
+# Formulário de Cadastro 2
+Aula dedicada a automatizar o segundo cenário da história de usuário.
+Nota-se o reaproveitamento de trechos escritos exatamente iguais em cenários diferentes por parte do cucumber. ("Dado que acesso a página de cadastro")
+A aula mostra como automatizar também o resto do cenário em que não é colocado o nome, ficando assim:
+```
 Dado('que acesso a página de cadastro') do
   visit "http://rocklov-web:3000/signup"
 end
@@ -24,3 +29,4 @@ Então('vejo a mensagem de alerta: Oops. Informe seu nome completo!') do
   alert = find(".alert-dark")
   expect(alert.text).to eql "Oops. Informe seu nome completo!"
 end
+``` 

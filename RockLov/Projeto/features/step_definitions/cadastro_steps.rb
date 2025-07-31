@@ -4,7 +4,7 @@ end
 
 Quando('submeto o meu cadastro completo') do
   find("#fullName").set "Thiago"
-  find("#email").set "thiago@gmail.com"
+  find("#email").set Faker::Internet.email
   find("#password").set "pwd123"
   click_button "Cadastrar"
 end

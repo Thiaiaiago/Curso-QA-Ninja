@@ -5,4 +5,6 @@ Abrindo o site da [Ubuntu](https://ubuntu.com) e indo em Downloads -> Ubuntu Ser
 Verificar se Virtualização está habilitada através do Gerenciador de Tarefas na aba de Desempenho
 Após isso, abrir VirtualBox, criar uma nova máquina virtual, nomear ela, escolher tipo e versão e selecionar o arquivo ISO do Ubuntu que acabou de ser instalado. Configurar de acordo com a preferência, usei 2 GB de RAM, 1 processaro e 10 GB de Armazenamento pro Disco Virtual.
 ## Configurando a Máquina Virtual
+Ir em Configurações da Máquina Virtual -> Armazenamento e adicionar a ISO do Ubuntu.
+Após isso iniciei a máquina e fiz todas configurações instalando o Docker.
 

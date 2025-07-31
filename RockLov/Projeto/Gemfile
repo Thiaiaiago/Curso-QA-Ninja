@@ -3,3 +3,5 @@
 source "https://rubygems.org"
 
 gem 'cucumber', '~> 10.0'
+gem 'capybara', '~> 3.40'
+gem 'selenium-webdriver', '~> 4.34'

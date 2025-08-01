@@ -5,6 +5,7 @@ GEM
       public_suffix (>= 2.0.2, < 7.0)
     base64 (0.3.0)
     bigdecimal (3.2.2)
+    bson (5.1.1)
     builder (3.3.0)
     capybara (3.40.0)
       addressable
@@ -50,6 +51,9 @@ GEM
     logger (1.7.0)
     matrix (0.4.3)
     mini_mime (1.1.5)
+    mongo (2.21.2)
+      base64
+      bson (>= 4.14.1, < 6.0.0)
     multi_test (1.1.0)
     nokogiri (1.18.9-x64-mingw-ucrt)
       racc (~> 1.4)
@@ -93,6 +97,7 @@ DEPENDENCIES
   capybara (~> 3.40)
   cucumber (~> 10.0)
   faker (~> 3.5, >= 3.5.2)
+  mongo (~> 2.21, >= 2.21.2)
   rspec (~> 3.13, >= 3.13.1)
   selenium-webdriver (~> 4.34)
 

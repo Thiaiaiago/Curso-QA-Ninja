@@ -5,6 +5,7 @@ Funcionalidade: Login
     Quero acessar o sistema da RockLov
     Para que eu possa anunciar meus equipamentos musicais
 
+    @login
     Cenario: Login do usuário
 
         Dado que acesso a página principal
@@ -20,7 +21,7 @@ Funcionalidade: Login
         Exemplos:
         |email_input                        |senha_input   |mensagem_output                            |
         |thiago.g.cunha.tc@gmail.com        |teste123      |Usuário e/ou senha inválidos.              |
-        |thiago.g.cunha@gmail.com           |pwd123        |Usuário e/ou senha inválidos.             |
-        |thiago.g.cunha.tcbatata.com       |pwd123        |Oops. Informe um email válido!             |
+        |thiago.g.cunha@gmail.com           |pwd123        |Usuário e/ou senha inválidos.              |
+        |thiago.g.cunha.tcbatata.com        |pwd123        |Oops. Informe um email válido!             |
         |                                   |pwd123        |Oops. Informe um email válido!             |
         |thiago.g.cunha.tc@gmail.com        |              |Oops. Informe sua senha secreta!           |
